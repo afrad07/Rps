@@ -106,3 +106,26 @@ hr{
     align-items: center;
     text-align: center;
 }
+
+@media screen and (max-width: 415px){
+    h1{
+        font-size: 30px;
+        width: 70%;
+        text-align: center;
+    }
+    .playground button{
+        width: 50px;
+        height: 50px;
+    }
+    i{
+        font-size: 15px;
+    }
+    .choices{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .choices div{
+        flex-direction: column;
+        gap: 5px;
+    }
+}
